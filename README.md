@@ -28,7 +28,7 @@ This project demonstrates a DNS spoofing attack using ARP spoofing to perform a 
 The attack consists of three layers:
 
 **1. ARP Spoofing (Man-in-the-Middle)**
-Every device on a network uses ARP to resolve IP addresses to MAC addresses. The attacker sends fake ARP replies to the victim saying "I am the router", causing all victim traffic to flow through the attacker first.
+Every device on a network uses ARP to translate IP addresses to MAC addresses. The attacker sends fake ARP replies to the victim saying "I am the router", causing all victim traffic to flow through the attacker first.
 
 **2. DNS Spoofing**
 Once positioned as the man-in-the-middle, the attacker intercepts the victim's DNS requests. When the victim asks "what is the IP of mycourses.rit.edu?", the attacker replies with their own IP instead of the real one.
