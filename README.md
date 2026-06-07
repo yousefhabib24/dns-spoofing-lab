@@ -114,5 +114,3 @@ Adding a static ARP entry for the router prevents the ARP cache from being poiso
 arp -s 10.0.2.1 [router-mac-address]
 ```
 A static entry cannot be overwritten by fake ARP replies, breaking the man-in-the-middle position entirely.
-
----
