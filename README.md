@@ -35,16 +35,17 @@ Once positioned as the man-in-the-middle, the attacker intercepts the victim's D
 
 **3. Fake Website**
 The attacker runs a fake webpage on port 80. The victim's browser gets redirected to the attacker's IP and loads the fake site without knowing.
+
 Victim types mycourses.rit.edu
-↓
+→
 DNS request intercepted by Kali
-↓
+→
 Kali replies: mycourses.rit.edu = 10.0.2.4
-↓
+→
 Victim browser connects to 10.0.2.4
-↓
+→
 Kali serves fake website
-↓
+→
 Victim sees fake page without knowing
 
 ---
