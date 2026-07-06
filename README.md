@@ -1,4 +1,4 @@
-# DNS Spoofing via ARP Spoofing - Home Lab
+# DNS Spoofing via ARP Poisoning - Home Lab
 
 ## Overview
 This project demonstrates a DNS spoofing attack using ARP spoofing to perform a Man-in-the-Middle (MitM) attack in a controlled virtual lab environment. The attacker redirects the victim's web traffic to a fake website by poisoning their ARP cache and intercepting DNS requests. The project also demonstrates how HTTPS protects users against this attack.
